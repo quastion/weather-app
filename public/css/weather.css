@@ -1,0 +1,17 @@
+.weather{
+  background-color: #F4F4F4;
+  padding-top: 40px;
+  padding-bottom: 70px;
+}
+
+.weather h1{
+  font-size: 2.6em;
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+h1 span{
+  font-size: 0.5em;
+  font-weight: normal;
+  opacity: 0.6;
+}

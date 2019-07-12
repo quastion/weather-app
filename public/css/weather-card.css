@@ -1,0 +1,100 @@
+p{
+  text-align: center;
+  line-height: 1.4;
+  text-transform: lowercase;
+}
+
+.weather-card{
+  width: fit-content;
+  min-width: 80px;
+  border: black solid 1px;
+  font-weight: bold;
+  white-space: nowrap;
+  padding: 30px;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  display: block;
+  background-color: #fff;
+  transition: all 0.2s;
+}
+
+.weather-card:hover{
+  box-shadow: 0 0 15px 0 #AAA;
+  transition: all 0.3s;
+  transform: scale(1.03);
+  cursor: pointer;
+}
+
+.weather-card:last-child{
+  margin-right: 0;
+  margin-bottom: 5px;
+}
+
+.weather-card_day-of-week{
+  color: #999;
+  text-transform: none;
+}
+
+.weather-card_day-number{
+  font-size: 1.9em;
+  font-weight: bold;
+  color: #666;
+  padding-bottom: 5px;
+}
+
+.weather-card_day-temp{
+  font-size: 1.5em;
+}
+
+.weather-card_night-temp{
+  color: #777;
+  padding-bottom: 20px;
+}
+
+.weather-card_precipitation{
+  line-height: 1.1;
+  font-size: 0.9em;
+  color: #999;
+}
+
+.weather-icon{
+  height: 40px;
+  background-repeat: no-repeat;
+  background-position: top center;
+}
+
+.weather-icon-snow{
+  background-image: url('/public/img/weather-icon-snow.png');
+}
+
+.weather-icon-rain{
+  background-image: url('/public/img/weather-icon-rain.png');
+}
+
+.weather-icon-clear{
+  background-image: url('/public/img/weather-icon-clear.png');
+}
+
+.weather-icon-cloudy{
+  background-image: url('/public/img/weather-icon-cloudy.png');
+}
+
+.weather-icon-rain-with-snow{
+  background-image: url('/public/img/weather-icon-rain-with-snow.png');
+}
+
+.weather-icon-no-data{
+  background-image: url('/public/img/weather-icon-no-data.png');
+}
+
+.hide{
+  opacity: 0.05;
+}
+
+.hide:hover{
+  opacity: 0.05 !important;
+  cursor: default;
+  transition: all 0.5s;
+}
